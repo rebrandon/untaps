@@ -49,3 +49,7 @@ h1 {
 .navbar a:hover {
     color: #3498db;
 }
+.navbar a.active {
+    color: #f1c40f; /* A nice gold color */
+    border-bottom: 2px solid #f1c40f;
+}
