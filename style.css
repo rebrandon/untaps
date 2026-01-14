@@ -53,3 +53,11 @@ h1 {
     color: #f1c40f; /* A nice gold color */
     border-bottom: 2px solid #f1c40f;
 }
+.profile-img {
+    max-width: 250px;       /* Keeps the image from being too big */
+    height: auto;           /* Maintains the original proportions */
+    border-radius: 50%;     /* Makes the image a circle */
+    border: 5px solid #3498db;
+    display: block;
+    margin: 20px auto;      /* Centers the image */
+}
