@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Contact & Deck Help - MTG Store</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html" class="active">Contact</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <h1>Contact Me</h1>
+        <p>Have questions about my Whatnot inventory or need help with a Commander deck? Drop a message below!</p>
+        
+        <form action="https://formspree.io/f/your-id-here" method="POST" class="contact-form">
+            <label>Your Name:</label>
+            <input type="text" name="name" placeholder="Urza" required>
+
+            <label>Your Email:</label>
+            <input type="email" name="_replyto" placeholder="planeswalker@example.com" required>
+
+            <label>How can I help?</label>
+            <select name="inquiry-type">
+                <option value="whatnot">Question about Whatnot Store</option>
+                <option value="deck-help">MTG Deck Help/Advice</option>
+                <option value="singles">Inquiry about specific Singles</option>
+            </select>
+
+            <label>Message:</label>
+            <textarea name="message" rows="5" placeholder="I'm looking for a copy of Sheoldred, or I need help with my mana base..." required></textarea>
+
+            <button type="submit" class="btn">Send Message</button>
+        </form>
+    </div>
+</body>
+</html>
